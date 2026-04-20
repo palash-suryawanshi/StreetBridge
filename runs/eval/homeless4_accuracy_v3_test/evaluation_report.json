@@ -1,0 +1,33 @@
+{
+  "dataset_root": "/Users/spalash/Documents/BDA600/StreetBridge/datasets/yolo_homeless_4class_clean_balanced",
+  "split": "test",
+  "run_dir": "/Users/spalash/Documents/BDA600/StreetBridge/runs/detect/homeless4_accuracy_v3",
+  "eval_dir": "/Users/spalash/Documents/BDA600/StreetBridge/runs/eval/homeless4_accuracy_v3_test",
+  "image_count": 94,
+  "ground_truth_box_counts": {
+    "homeless_tent": 229,
+    "homeless_cart": 43,
+    "homeless_person": 50
+  },
+  "support_notes": [],
+  "training_summary": {
+    "epochs_recorded": 49,
+    "best_epoch": 29,
+    "best_precision": 0.46011,
+    "best_recall": 0.52316,
+    "best_map50": 0.49244,
+    "best_map50_95": 0.21643,
+    "last_epoch": 49,
+    "last_map50": 0.40555,
+    "last_map50_95": 0.16989
+  },
+  "artifact_paths": {
+    "confusion_matrix": "/Users/spalash/Documents/BDA600/StreetBridge/runs/eval/homeless4_accuracy_v3_test/confusion_matrix.png",
+    "confusion_matrix_normalized": "/Users/spalash/Documents/BDA600/StreetBridge/runs/eval/homeless4_accuracy_v3_test/confusion_matrix_normalized.png",
+    "pr_curve": "/Users/spalash/Documents/BDA600/StreetBridge/runs/eval/homeless4_accuracy_v3_test/BoxPR_curve.png",
+    "precision_curve": "/Users/spalash/Documents/BDA600/StreetBridge/runs/eval/homeless4_accuracy_v3_test/BoxP_curve.png",
+    "recall_curve": "/Users/spalash/Documents/BDA600/StreetBridge/runs/eval/homeless4_accuracy_v3_test/BoxR_curve.png",
+    "f1_curve": "/Users/spalash/Documents/BDA600/StreetBridge/runs/eval/homeless4_accuracy_v3_test/BoxF1_curve.png"
+  },
+  "sample_prediction_pairs": []
+}

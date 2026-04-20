@@ -1,0 +1,55 @@
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Private image and dataset sources
+annotated_images/
+datasets/
+
+# Generated training / evaluation outputs:
+# keep model weights and safe metrics in runs/, but exclude image-based artifacts
+runs/**/.DS_Store
+runs/detect/predict/
+runs/detect/runs/
+runs/detect/val*/
+runs/eval/*/val_batch*.jpg
+runs/detect/*/train_batch*.jpg
+runs/detect/*/val_batch*.jpg
+runs/detect/*/labels.jpg
+runs/eval/*/labels.jpg
+Faster_R_CNN/comparison_outputs/
+
+# Common exported artifacts
+*.zip
+
+# Large local model binaries
+yolov8n.pt
+yolov8s.pt
+yolov8m.pt
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+
+#faster rcnn
+Faster_R_CNN/
